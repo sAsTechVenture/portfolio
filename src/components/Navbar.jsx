@@ -27,33 +27,33 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/About"
+            to="/about"
             className={`hover:underline ease-in-out duration-300 ${
-              location.pathname === "/About" && "underline"
+              location.pathname === "/about" && "underline"
             }`}
           >
             About
           </Link>
           <Link
-            to="/Services"
+            to="/services"
             className={`hover:underline ease-in-out duration-300 ${
-              location.pathname === "/Services" && "underline"
+              location.pathname === "/services" && "underline"
             }`}
           >
             Service
           </Link>
           <Link
-            to="/Projects"
+            to="/projects"
             className={`hover:underline ease-in-out duration-300 ${
-              location.pathname === "/Projects" && "underline"
+              location.pathname === "/projects" && "underline"
             }`}
           >
             Project
           </Link>
           <Link
-            to="/Contact"
+            to="/contact"
             className={`hover:underline ease-in-out duration-300 ${
-              location.pathname === "/Contact" && "underline"
+              location.pathname === "/contact" && "underline"
             }`}
           >
             Contact
@@ -84,34 +84,33 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="/About"
+              to="/about"
               className={`hover:underline ease-in-out duration-300 p-4 ${
-                location.pathname === "/About" && "underline"
+                location.pathname === "/about" && "underline"
               }`}
             >
               About
             </Link>
             <Link
-              to="/Services"
-              
+              to="/services"
               className={`hover:underline ease-in-out duration-300 p-4 ${
-                location.pathname === "/Services" && "underline"
+                location.pathname === "/services" && "underline"
               }`}
             >
               Services
             </Link>
             <Link
-              to="/Projects"
+              to="/projects"
               className={`hover:underline ease-in-out duration-300 p-4 ${
-                location.pathname === "/Projects" && "underline"
+                location.pathname === "/projects" && "underline"
               }`}
             >
               Projects
             </Link>
             <Link
-              to="/Contact"
+              to="/contact"
               className={`hover:underline ease-in-out duration-300 p-4 ${
-                location.pathname === "/Contact" && "underline"
+                location.pathname === "/contact" && "underline"
               }`}
             >
               Contact

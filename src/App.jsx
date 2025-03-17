@@ -1,7 +1,14 @@
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { Home, About, Contact, Projects, Services,StepsComponent } from "./routes";
+import {
+  Home,
+  About,
+  Contact,
+  Projects,
+  Services,
+  StepsComponent,
+} from "./routes";
 
 function ScrollToTopOnRouteChange({ delay }) {
   const { pathname } = useLocation();
@@ -40,7 +47,7 @@ function App() {
             }
           />
           <Route
-            path="/About"
+            path="/about"
             element={
               <motion.div
                 initial={{ opacity: 0 }}
@@ -52,7 +59,7 @@ function App() {
             }
           />
           <Route
-            path="/Services"
+            path="/services"
             element={
               <motion.div
                 initial={{ opacity: 0 }}
@@ -64,7 +71,7 @@ function App() {
             }
           />
           <Route
-            path="/Projects"
+            path="/projects"
             element={
               <motion.div
                 initial={{ opacity: 0 }}
@@ -76,7 +83,7 @@ function App() {
             }
           />
           <Route
-            path="/Contact"
+            path="/contact"
             element={
               <motion.div
                 initial={{ opacity: 0 }}
@@ -88,7 +95,7 @@ function App() {
             }
           />
 
-    <Route
+          <Route
             path="/steps/:id"
             element={
               <motion.div
@@ -100,11 +107,7 @@ function App() {
               </motion.div>
             }
           />
-          
         </Routes>
-
-        
-        
       </AnimatePresence>
     </div>
   );

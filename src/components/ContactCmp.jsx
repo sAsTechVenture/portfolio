@@ -28,7 +28,7 @@ const ContactCmp = () => {
 
   return (
     <main className="bg-[#f8f0e3] w-full flex flex-col overflow-x-hidden">
-      <section className="grid md:grid-cols-12 gap-4 p-4 max-w-[95%] mx-auto bg-[#e0d6c6]">
+      <section className="grid md:grid-cols-12 gap-4 md:max-w-[100%] p-4 h-fit max-w-[95%] mx-auto bg-[#e0d6c6]">
         <SectionName title="Contact Us" />
       </section>
 
